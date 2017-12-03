@@ -8,7 +8,7 @@ import { RecipientsService } from '../../services/recipients.service';
 })
 export class SampleCComponent implements OnInit {
 
-  listEmails: String[];
+  listEmails: String;
 
   toggle: boolean = true;
 
